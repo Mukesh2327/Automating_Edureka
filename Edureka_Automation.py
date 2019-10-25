@@ -12,7 +12,7 @@ browser.find_element_by_link_text('Log In').click()
 time.sleep(5)
 #getting the mail input type element from the login box
 mail=browser.find_element_by_id('si_popup_email')
-mail.send_keys('mukesh23278@gmail.com')
+mail.send_keys('Test123@gmail.com')
 #getting the password input type element from the login box
 password=browser.find_element_by_id('si_popup_passwd')
 #reading password from a file
